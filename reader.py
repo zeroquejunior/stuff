@@ -17,3 +17,7 @@ class Reader:
         #     engine.runAndWait()
 
         self.engine.stop()
+
+
+def teste():
+    pass
