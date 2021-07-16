@@ -5,7 +5,7 @@
 
 #Desafio 1 (curso em video)
 #name=input("What's your name?")
-#rint("Hello "+name+"!", "Nice to meet you!")
+#print("Hello "+name+"!", "Nice to meet you!")
 
 #Desafio 2 (curso em video)
 # day = input("Day you were born?")
