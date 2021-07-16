@@ -2,10 +2,12 @@ from reader import Reader
 from string_tools import StringTools
 
 reader = Reader()
-string_tools = StringTools()
 frase = ""
+trolha = "teste"
 
-while (frase != "/exit"):
+while frase != "/exit":
     frase = input("digite algo: ")
     reversed_phrase = string_tools.reverse(frase)
-    reader.say_something(string_tools.add_something_in_the_end(frase, "rola")+" "+reversed_phrase)
+    reader.say_something(
+        string_tools.add_something_in_the_end(frase, "rola") + " " + reversed_phrase
+    )
