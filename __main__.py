@@ -2,7 +2,6 @@ from reader import Reader
 from string_tools import StringTools
 
 reader = Reader()
-string_tools = StringTools()
 frase = ""
 trolha = "teste"
 
