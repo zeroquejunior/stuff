@@ -7,3 +7,6 @@ class PhysycalPerson(Person):
     def __init__(self, name: str, national_id: str, last_name: str):
         self.last_name = last_name
         super().__init__(name, national_id)
+
+    def peida(self):
+        print("Peido verdadeiro")

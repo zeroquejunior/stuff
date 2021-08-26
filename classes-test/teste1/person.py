@@ -1,3 +1,6 @@
+import abc
+
+
 class Person:
     name: str = ""
     national_id: str = ""
@@ -8,3 +11,8 @@ class Person:
 
     def __str__(self):
         return f"{self.name} - {type(self)}"
+
+    abc.abstractclassmethod
+
+    def peida(self):
+        pass
